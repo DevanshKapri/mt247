@@ -16,7 +16,7 @@
 <body>
     <!--Navbar-->
     <section class="w-full antialiased bg-dark select-none" id="navbar">
-        <nav class="relative bg-dark container p-6 lg:p-8">
+        <nav class="relative bg-dark container p-6 lg:p-8 mx-auto">
             <div class="flex items-center justify-between">
                 <!-- Logo -->
                 <div class="pt-2">
@@ -26,7 +26,7 @@
                     </a>
                 </div>
                 <!-- Menu -->
-                <div class="hidden md:flex space-x-16">
+                <div class="hidden lg:flex space-x-16">
                     <a href="./"
                         class="text-base font-medium leading-6 text-white hover:text-whitegray focus:outline-none focus:text-whitegray transition duration-150 ease-in-out">
                         Home
@@ -40,7 +40,7 @@
                         Contact
                     </a>
                 </div>
-                <div class="hidden md:block">
+                <div class="hidden p-3 px-6 pt-2 md:block">
                     <a href="./contact.html"
                         class="text-base mx-3 font-medium leading-6 text-white focus:outline-none focus:text-primary transition duration-150 ease-in-out">
                         Contact Us
@@ -50,7 +50,25 @@
                         Now</a>
                 </div>
 
+                <!-- Hamburger -->
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
 
+            </div>
+            <!-- Mobile Menu -->
+            <div class="md:hidden">
+                <div id="menu"
+                    class="absolute hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="#home">Home</a>
+                    <a href="#call">Mentorship</a>
+                    <a href="#benefits">Features</a>
+                    <a href="#team">Mentors</a>
+                    <a href="#team">Reviews</a>
+                    <a href="#team">FAQs</a>
+                </div>
             </div>
         </nav>
     </section>
@@ -73,14 +91,15 @@
                 <div
                     class="flex flex-col space-y-10 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                     <a rel="noopener noreferrer" href="#"
-                        class="px-8 py-3 text-lg font-semibold rounded-xl bg-primary text-white">Book you Session
+                        class="px-8 py-3 text-lg font-semibold rounded-xl bg-primary text-white">Book you
+                        Session
                         Now</a>
                     <a rel="noopener noreferrer" href="#"
                         class="px-8 py-3 text-lg font-semibold border rounded-xl border-white">Learn More</a>
                 </div>
                 <!-- User profiles -->
                 <div
-                    class="flex flex-col space-y-10 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+                    class="flex flex-col p-2 space-y-10 items-center justify-center sm:flex-row space-y-0 space-x-4 lg:justify-start">
                     <div class="inline-flex justify-start mt-6 m-3">
                         <span class="relative overflow-hidden w-12 -ml-4">
                             <img src="assets/img/u-1.jpg" alt="Hero"
@@ -160,7 +179,8 @@
         </div>
     </section>
     <section class="bg-secondary py-3" id="call">
-        <div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
+        <div
+            class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 flex-col lg:flex-row lg:justify-around">
             <div class="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                 <h1 class="text-3xl font-bold leading-none sm:text-5xl">Hear from Our Mentors and Mentees <br>
                     <span class="text-3xl"><span class="dark:text-primary">Personal Experience</span> & <span
@@ -174,9 +194,9 @@
 
             </div>
             <div class="flex flex-row items-center justify-around">
-                <div class="flex items-center w-full justify-between flex-col lg:flex-row">
+                <div class="flex items-center w-full justify-between flex-col lg:flex-row space-y-6">
                     <div
-                        class="bg-primary rounded-lg text-white py-8 px-10 shadow-2xl z-10 transform translate-y-16 text-center max-w-sm mx-auto">
+                        class="bg-primary rounded-lg text-white py-8 px-10 shadow-2xl z-10 lg:transform lg:translate-y-16 text-center max-w-sm mx-auto">
                         <h2 class="font-semibold text-2xl mb-6">Mytutor247 Mentor</h2>
                         <img class="w-20 h-20 object-cover rounded-full mx-auto shadow-lg"
                             src="https://images.unsplash.com/photo-1611342799915-5dd9f1665d04?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
@@ -196,7 +216,7 @@
                         </div>
                     </div>
                     <div
-                        class="bg-white py-8 px-10 text-center rounded-lg shadow-lg transform -translate-x-8 sm:-translate-y-10 max-w-xs mx-auto">
+                        class="bg-white py-8 px-10 text-center rounded-lg shadow-lg lg:transform lg:-translate-x-8 sm:-translate-y-10 max-w-xs mx-auto">
                         <h2 class="font-semibold text-2xl mb-6">Mytutor247 Student</h2>
                         <img class="w-20 h-20 object-cover rounded-full mx-auto shadow-lg"
                             src="https://unsplash.com/photos/O9pmqUq1uOU/download?force=true&auto=format&fit=crop&w=1350&q=80"
@@ -516,7 +536,7 @@
         </div>
     </section>
 
-    <section id="stats" class="md:bg-white bg-secondary">
+    <section id="stats" class="bg-white">
         <div class="bg-secondary border-b-1 shadow-lg rounded-b-large">
             <div
                 class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-24 md:pb-24 md:px-10 lg:px-32 dark:text-gray-900">
