@@ -10,6 +10,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
@@ -93,7 +94,8 @@
 
     <!-- Hero Section -->
     <section class="bg-dark text-white py-3" id="hero">
-        <div class="container flex flex-col justify-around p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
+        <div
+            class="home-content container flex flex-col justify-around p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
             <!-- Left Section-->
             <div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                 <h1 class="text-3xl font-bold leading-none sm:text-4xl">Improve your performance with
@@ -191,15 +193,17 @@
                 </div>
             </div>
             <!-- Right Image -->
-            <div class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+            <div
+                class="hero-img flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
                 <img src="assets/img/1.png" alt="Mentorship" class="object-contain sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
             </div>
         </div>
     </section>
     <section class="bg-secondary py-3" id="call">
         <div
-            class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 flex-col lg:flex-row lg:justify-around">
-            <div class="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+            class="call-left container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 flex-col lg:flex-row lg:justify-around">
+            <div
+                class="wrapper flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                 <h1 class="text-3xl font-bold leading-none sm:text-5xl">Hear from Our Mentors and Mentees <br>
                     <span class="text-3xl"><span class="dark:text-primary">Personal Experience</span> & <span
                             class="dark:text-primary">Insights</span></span>
@@ -214,7 +218,7 @@
             <div class="flex flex-row items-center justify-around">
                 <div class="flex items-center w-full justify-between flex-col lg:flex-row space-y-6">
                     <div
-                        class="bg-primary rounded-lg text-white py-8 px-10 shadow-2xl z-10 lg:transform lg:translate-y-16 text-center max-w-sm mx-auto">
+                        class="card-1 bg-primary rounded-lg text-white py-8 px-10 shadow-2xl z-10 lg:transform lg:translate-y-16 text-center max-w-sm mx-auto">
                         <h2 class="font-semibold text-2xl mb-6">Mytutor247 Mentor</h2>
                         <img class="w-20 h-20 object-cover rounded-full mx-auto shadow-lg"
                             src="https://images.unsplash.com/photo-1611342799915-5dd9f1665d04?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
@@ -223,7 +227,7 @@
                         <span class="flex items-center border rounded-full w-24 pr-2 justify-center mx-auto mt-2 mb-12">
                             <div class="bg-green-400 rounded-full w-2.5 h-2.5 block mr-2"></div>Mentor
                         </span>
-                        <div class="flex rounded items-center justify-around w-full">
+                        <div class="card-2 flex rounded items-center justify-around w-full">
                             <button type="button" class="text-white px-3 py-1"><i
                                     class="fa-solid fa-phone"></i></button>
                             <button type="button" class="text-white px-3 py-1">
@@ -273,16 +277,19 @@
                 <div class="py-16 bg-white">
                     <div class="container w-screen m-auto px-6 space-y-8 md:px-12 lg:px-56">
                         <div class="m-auto text-center lg:w-7/12">
-                            <h2 class="text-2xl text-black font-black md:text-5xl">Better <span
+                            <h2 data-aos="fade-up" data-aos-duration="1000"
+                                class="text-2xl text-black font-black md:text-5xl">Better <span
                                     class="text-primary">Mentoring</span> makes Better
                                 <span class="text-primary">Future</span>
                             </h2>
-                            <p class="mt-6 mb-8 text-lg text-gray-800 sm:mb-12">Our mentees soar to success with top
+                            <p data-aos="fade-up" data-aos-duration="1000"
+                                class="mt-6 mb-8 text-lg text-gray-800 sm:mb-12">Our mentees soar to success with top
                                 engineering
                                 college admissions and ace JEE and NEET exams, all thanks to our dedicated mentors.
                             </p>
                         </div>
-                        <div class="grid mt-2 w-full justify-items-center items-center grid-rows-2 grid-flow-col">
+                        <div data-aos="fade-up" data-aos-duration="1000"
+                            class="grid mt-2 w-full justify-items-center items-center grid-rows-2 grid-flow-col">
                             <div class="p-4">
                                 <img src="./assets/img/clg/aiims.svg" class="w-32" alt="">
                             </div>
@@ -389,14 +396,17 @@
     <section class="bg-dark" id="benefits">
         <div class="container max-w-xl p-6 py-20 mx-auto space-y-12 lg:px-8 lg:max-w-4xl">
             <div>
-                <h2 class="text-3xl font-black tracking-tight text-center sm:text-5xl text-white">Unlock Your
+                <h2 data-aos="fade-up" data-aos-duration="1000"
+                    class="text-3xl font-black tracking-tight text-center sm:text-5xl text-white">Unlock Your
                     <span class="text-primary">Potential</span>
                 </h2>
-                <p class="max-w-3xl mx-auto mt-4 text-xl font-medium text-center dark:text-white">Discover the Secrets
+                <p data-aos="fade-up" data-aos-duration="1000"
+                    class="max-w-3xl mx-auto mt-4 text-xl font-medium text-center dark:text-white">Discover the Secrets
                     of Success
                     Inside Our Mentorship</p>
             </div>
-            <div class="container flex flex-col-reverse mx-auto lg:flex-row justify-between">
+            <div data-aos="fade-up" data-aos-duration="1000"
+                class="container flex flex-col-reverse mx-auto lg:flex-row justify-between">
                 <div
                     class="flex flex-col px-6 py-8 space-y-6 sm:p-8 lg:p-12 lg:w-1/2 xl:w-1/2 bg-white lg:rounded-l-md">
                     <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
@@ -455,12 +465,14 @@
 
     <section class="py-20 bg-white" id="team">
         <div class="container max-w-3xl flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
-            <h1 class="text-2xl font-black leading-none text-center sm:text-5xl">Program Designed by <span
+            <h1 data-aos="fade-up" data-aos-duration="1000"
+                class="text-2xl font-black leading-none text-center sm:text-5xl">Program Designed by <span
                     class="text-primary">Mentors</span> from <span class="text-primary">Top
                     Institute</span></h1>
-            <p class="max-w-2xl text-center text-gray-800">Unlock your full potential with a program designed by mentors
+            <p data-aos="fade-up" data-aos-duration="1000" class="max-w-2xl text-center text-gray-800">Unlock your full
+                potential with a program designed by mentors
                 from the top institutes. Achieve your goals with guidance from the best in the field.</p>
-            <div
+            <div data-aos-duration="1000"
                 class="hidden lg:block transform -translate-y-40 translate-x-96 absolute px-8 py-3 text-lg font-semibold rounded-xl bg-white text-gray-700">
                 <div class="flex items-center mb-3 shadow-2xl rounded-2xl p-2 px-4">
                     <!-- Star SVGs -->
@@ -504,49 +516,49 @@
             </div>
             <div class="flex flex-row flex-wrap justify-center rounded-2xl border-2 shadow-lg p-4">
                 <div class="flex flex-col justify-center m-8 text-center">
-                    <img alt=""
+                    <img alt="" data-aos="fade-up"
                         class="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
                         src="./assets/img/team/1.png">
-                    <p class="text-xl font-semibold leading-tight">Ketan Kansal</p>
-                    <p class="dark:text-gray-400">IIT Guwhati</p>
+                    <p data-aos="fade-up" class="text-xl font-semibold leading-tight">Ketan Kansal</p>
+                    <p data-aos="fade-up" class="dark:text-gray-400">IIT Guwhati</p>
                 </div>
                 <div class="flex flex-col justify-center m-8 text-center">
-                    <img alt=""
+                    <img alt="" data-aos="fade-up"
                         class="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
                         src="./assets/img/team/2.png">
-                    <p class="text-xl font-semibold leading-tight">Yuvraj Singh</p>
-                    <p class="dark:text-gray-400">NIT Bhopal</p>
+                    <p data-aos="fade-up" class="text-xl font-semibold leading-tight">Yuvraj Singh</p>
+                    <p data-aos="fade-up" class="dark:text-gray-400">NIT Bhopal</p>
                 </div>
                 <div class="flex flex-col justify-center m-8 text-center">
-                    <img alt=""
+                    <img data-aos="fade-up" alt=""
                         class="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
                         src="./assets/img/team/3.png">
-                    <p class="text-xl font-semibold leading-tight">Aman Rana</p>
-                    <p class="dark:text-gray-400">IIT Roorkee</p>
+                    <p data-aos="fade-up" class="text-xl font-semibold leading-tight">Aman Rana</p>
+                    <p data-aos="fade-up" class="dark:text-gray-400">IIT Roorkee</p>
                 </div>
                 <div class="flex flex-col justify-center m-8 text-center">
-                    <img alt=""
+                    <img data-aos="fade-up" alt=""
                         class="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
                         src="./assets/img/team/4.png">
-                    <p class="text-xl font-semibold leading-tight">Karan Soni</p>
-                    <p class="dark:text-gray-400">NIT Kurukshetra</p>
+                    <p data-aos="fade-up" class="text-xl font-semibold leading-tight">Karan Soni</p>
+                    <p data-aos="fade-up" class="dark:text-gray-400">NIT Kurukshetra</p>
                 </div>
                 <div class="flex flex-col justify-center m-8 text-center">
-                    <img alt=""
+                    <img data-aos="fade-up" alt=""
                         class="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
                         src="./assets/img/team/5.png">
-                    <p class="text-xl font-semibold leading-tight">Yashraj Mithoriya</p>
-                    <p class="dark:text-gray-400">ABVGMC Vidisha</p>
+                    <p data-aos="fade-up" class="text-xl font-semibold leading-tight">Yashraj Mithoriya</p>
+                    <p data-aos="fade-up" class="dark:text-gray-400">ABVGMC Vidisha</p>
                 </div>
                 <div class="flex flex-col justify-center m-8 text-center">
-                    <img alt=""
+                    <img data-aos="fade-up" alt=""
                         class="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
                         src="./assets/img/team/6.png">
-                    <p class="text-xl font-semibold leading-tight">Swaroop Amjudari</p>
-                    <p class="dark:text-gray-400">GMC, Secundrabad</p>
+                    <p data-aos="fade-up" class="text-xl font-semibold leading-tight">Swaroop Amjudari</p>
+                    <p data-aos="fade-up" class="dark:text-gray-400">GMC, Secundrabad</p>
                 </div>
                 <div class="w-full text-right">
-                    <p class="text-l font-black p-2"><span class="font-black text-primary">& 50+ more
+                    <p data-aos="fade-up" class="text-l font-black p-2"><span class="font-black text-primary">& 50+ more
                             mentors</span>&nbsp;...
                     </p>
                 </div>
@@ -558,10 +570,12 @@
         <div class="bg-secondary border-b-1 shadow-lg rounded-b-large">
             <div
                 class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-24 md:pb-24 md:px-10 lg:px-32 dark:text-gray-900">
-                <h1 class="text-2xl font-black leading-none sm:text-5xl xl:max-w-3xl dark:text-gray-900">How a Mentor
+                <h1 data-aos="fade-up" data-aos-duration="1000"
+                    class="text-2xl font-black leading-none sm:text-5xl xl:max-w-3xl dark:text-gray-900">How a Mentor
                     Can
                     Help You <span class="text-primary">Reach Your Goals</span></h1>
-                <p class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-2xl">Studies have shown that 80% of
+                <p data-aos="fade-up" data-aos-duration="1000" class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-2xl">Studies
+                    have shown that 80% of
                     Fortune 500 CEOs credit mentorship as a key factor in their success. A mentor can serve as a
                     sounding board for your ideas and provide
                     feedback to help you improve and grow. With the help of a mentor, you can <br>unlock your full
@@ -569,7 +583,8 @@
                     and achieve your aspirations.</p>
             </div>
         </div>
-        <div class="flex items-center w-2/3 lg:w-1/2 justify-center mx-auto -mt-20 lg:-mt-24">
+        <div data-aos="fade-up" data-aos-duration="1000"
+            class="flex items-center w-2/3 lg:w-1/2 justify-center mx-auto -mt-20 lg:-mt-24">
             <div class="h-full md:w-2/3">
                 <div class="-mx-2 md:flex">
                     <div class="w-full md:w-1/2 px-2">
@@ -608,7 +623,8 @@
     </section>
     <section class="bg-white text-black" id="reviews">
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
-            <h2 class="text-center text-4xl font-black tracking-tight sm:text-5xl">
+            <h2 data-aos="fade-up" data-aos-duration="1000"
+                class="text-center text-4xl font-black tracking-tight sm:text-5xl">
                 What our <span class="text-primary">Mentees</span> say about Us
             </h2>
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
@@ -618,7 +634,7 @@
                     d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
                 </path>
             </svg>
-            <div class="swiper-container mt-12 !overflow-hidden">
+            <div data-aos="fade-up" data-aos-duration="1000" class="swiper-container mt-12 !overflow-hidden">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <blockquote class="rounded-lg bg-gray-100 p-8">
@@ -781,13 +797,15 @@
             <div class="-mx-4 flex flex-wrap">
                 <div class="w-full px-4">
                     <div class="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
-                        <span class="mb-2 block text-lg font-semibold text-primary">
+                        <span data-aos="fade-up" data-aos-duration="1000"
+                            class="mb-2 block text-lg font-semibold text-primary">
                             Frequently Asked Questions
                         </span>
-                        <h2 class="mb-4 text-3xl font-black text-dark sm:text-5xl md:text-[40px]">
+                        <h2 data-aos="fade-up" data-aos-duration="1000"
+                            class="mb-4 text-3xl font-black text-dark sm:text-5xl md:text-[40px]">
                             GOT A QUESTION? WE’VE GOT ANSWERS.
                         </h2>
-                        <p class="text-base text-body-color">
+                        <p data-aos="fade-up" data-aos-duration="1000" class="text-base text-body-color">
                             There are many variations of passages of Lorem Ipsum available but
                             the majority have suffered alteration in some form.
                         </p>
@@ -964,18 +982,20 @@
 
 
 
-    <footer class="py-6 bg-dark text-white">
+    <footer class="py-6 bg-dark text-white" id="footer">
 
         <div class="container p-8 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50">
             <div class="grid grid-cols-12 gap-6">
-                <div class="pb-6 px-4 col-span-full md:pb-0 md:col-span-6">
-                    <a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 md:justify-start">
+                <div class="footer-about pb-6 px-4 col-span-full md:pb-0 md:col-span-6">
+                    <a data-aos="fade-up" data-aos-duration="1000" rel="noopener noreferrer" href="#"
+                        class="flex justify-center space-x-3 md:justify-start">
 
                         <span class="self-center text-3xl font-black">Mytutor247<span
                                 class="text-primary">.</span></span>
 
                     </a>
-                    <p class="p-4 text-gray-400 text-md max-w-l">MyTutor247 is India's Largest Online Personal
+                    <p data-aos="fade-up" data-aos-duration="1000" class="p-4 text-gray-400 text-md max-w-l">MyTutor247
+                        is India's Largest Online Personal
                         Mentorship
                         and Doubt
                         Solving Platform for
@@ -983,7 +1003,7 @@
                         from India's Best IITians, NITians, and Top Medicos and can learn the art of getting the
                         best out of your self-studies to crack these toughest examinations of India.</p>
                 </div>
-                <div class="text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
+                <div class="footer-links text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
                     <ul>
                         <li>
                             <a rel="noopener noreferrer" href="#hero" class="hover:dark:text-accent">Home</a>
@@ -996,7 +1016,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
+                <div class="footer-links text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
                     <p class="pb-1 text-lg font-medium"></p>
                     <ul>
                         <li>
@@ -1007,7 +1027,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
+                <div class="footer-links text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
                     <ul>
                         <li>
                             <a rel="noopener noreferrer" href="#faqs" class="hover:dark:text-accent">FAQs</a>
@@ -1020,7 +1040,8 @@
                 </div>
             </div>
             <div class="grid justify-center pt-6 lg:justify-between">
-                <div class="flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6">
+                <div
+                    class="footer-c flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6">
                     <span>©2023 All rights reserved</span>
                     <a rel="noopener noreferrer" href="https://www.mytutor247.in/terms">
                         <span>Privacy policy</span>
@@ -1029,8 +1050,9 @@
                         <span>Terms of service</span>
                     </a>
                 </div>
-                <div class="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13">
-                    <a rel="noopener noreferrer" href="https://www.instagram.com/mytutor247.in/" title="Instagram"
+                <div class="footer-socials flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13">
+                    <a data-aos="fade-up" data-aos-duration="1000" rel="noopener noreferrer"
+                        href="https://www.instagram.com/mytutor247.in/" title="Instagram"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-secondary dark:text-gray-900">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" class="w-4 h-4">
                             <path
@@ -1038,7 +1060,8 @@
                             </path>
                         </svg>
                     </a>
-                    <a rel="noopener noreferrer" href="https://twitter.com/mytutor247" title="Twitter"
+                    <a data-aos="fade-up" data-aos-duration="1000" rel="noopener noreferrer"
+                        href="https://twitter.com/mytutor247" title="Twitter"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-secondary dark:text-gray-900">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" class="w-4 h-4">
                             <path
@@ -1046,7 +1069,8 @@
                             </path>
                         </svg>
                     </a>
-                    <a rel="noopener noreferrer" href="https://www.facebook.com/mytutor247.in" title="Facebook"
+                    <a data-aos="fade-up" data-aos-duration="1000" rel="noopener noreferrer"
+                        href="https://www.facebook.com/mytutor247.in" title="Facebook"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-secondary dark:text-gray-900">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" class="w-4 h-4">
                             <path
@@ -1054,12 +1078,13 @@
                             </path>
                         </svg>
                     </a>
-                    <a rel="noopener noreferrer" href="https://www.linkedin.com/company/mytutor247" title="Linkedin"
+                    <a data-aos="fade-up" data-aos-duration="1000" rel="noopener noreferrer"
+                        href="https://www.linkedin.com/company/mytutor247" title="Linkedin"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-secondary dark:text-gray-900">
                         <span><i class="fa-brands fa-linkedin"></i></span>
                     </a>
-                    <a rel="noopener noreferrer" href="https://www.youtube.com/channel/UCnLyg4cAjVhNNp4a0GmfHnw"
-                        title="Youtube"
+                    <a data-aos="fade-up" data-aos-duration="1000" rel="noopener noreferrer"
+                        href="https://www.youtube.com/channel/UCnLyg4cAjVhNNp4a0GmfHnw" title="Youtube"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-secondary dark:text-gray-900">
                         <span><i class="fa-brands fa-youtube"></i></span>
                     </a>
@@ -1095,7 +1120,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- GSAP -->
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="./assets/js/anim.js" type="text/javascript"></script>
+    <script src="./assets/js/main.js" type="text/javascript"></script>
 
 </body>
 
