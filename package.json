@@ -1,0 +1,16 @@
+{
+  "name": "mytutor247",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build ./input.css -o ./assets/css/main.css",
+    "watch": "tailwindcss build ./input.css -o ./assets/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
