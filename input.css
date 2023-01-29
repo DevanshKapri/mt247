@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hamburger {
   cursor: pointer;
   width: 24px;
@@ -46,4 +50,19 @@
 
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+.original-price {
+  position: relative;
+  color: #fff;
+}
+
+.original-price::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-top: 3px solid red;
+  transform: rotate(-20deg);
 }
