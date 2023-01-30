@@ -44,7 +44,7 @@ function callAnimation() {
     ".card-2",
     { translateY: 100, opacity: 0 },
     { translateY: 0, opacity: 1, duration: 1 },
-    "-=1"
+    "-=0.5"
   );
 }
 

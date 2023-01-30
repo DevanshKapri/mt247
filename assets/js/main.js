@@ -1,31 +1,31 @@
-var button = document.getElementById("btn-prev");
-button.onclick = function () {
-  console.log("clicked");
-  var container = document.getElementById("logo-display");
-  scrollAmount = 0;
-  var slideTimer = setInterval(function () {
-    sec = document.getElementById("logos");
-    container.scrollLeft -= sec.offsetWidth;
-    scrollAmount += sec.offsetWidth;
-    if (scrollAmount >= 100) {
-      window.clearInterval(slideTimer);
-    }
-  }, 25);
-};
+// var button = document.getElementById("btn-prev");
+// button.onclick = function () {
+//   console.log("clicked");
+//   var container = document.getElementById("logo-display");
+//   scrollAmount = 0;
+//   var slideTimer = setInterval(function () {
+//     sec = document.getElementById("logos");
+//     container.scrollLeft -= sec.offsetWidth;
+//     scrollAmount += sec.offsetWidth;
+//     if (scrollAmount >= 100) {
+//       window.clearInterval(slideTimer);
+//     }
+//   }, 25);
+// };
 
-var back = document.getElementById("btn-next");
-back.onclick = function () {
-  var container = document.getElementById("logo-display");
-  scrollAmount = 0;
-  var slideTimer = setInterval(function () {
-    sec = document.getElementById("logos");
-    container.scrollLeft += sec.offsetWidth;
-    scrollAmount += sec.offsetWidth;
-    if (scrollAmount >= 100) {
-      window.clearInterval(slideTimer);
-    }
-  }, 100);
-};
+// var back = document.getElementById("btn-next");
+// back.onclick = function () {
+//   var container = document.getElementById("logo-display");
+//   scrollAmount = 0;
+//   var slideTimer = setInterval(function () {
+//     sec = document.getElementById("logos");
+//     container.scrollLeft += sec.offsetWidth;
+//     scrollAmount += sec.offsetWidth;
+//     if (scrollAmount >= 100) {
+//       window.clearInterval(slideTimer);
+//     }
+//   }, 100);
+// };
 
 const chartOptions = {
   maintainAspectRatio: false,

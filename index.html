@@ -16,55 +16,55 @@
 
 <body>
     <!--Navbar-->
-    <section class="sticky top-0 z-40 w-full antialiased bg-dark select-none" id="navbar">
-        <nav class="top-0 z-40 relative bg-dark container p-6 lg:py-5 lg:px-8 mx-auto">
+    <section class="sticky top-0 z-40 w-full antialiased bg-white select-none" id="navbar">
+        <nav class="top-0 border-b-2 z-40 relative container p-6 lg:py-5 lg:px-8 mx-auto">
             <div class="flex items-center justify-between">
                 <!-- Logo -->
                 <div class="pt-3">
                     <a href="./" class="w-1/4">
-                        <span class="text-xl font-black leading-none text-white select-none logo">Mytutor247<span
+                        <span class="text-xl font-black leading-none text-dark select-none logo">Mytutor247<span
                                 class="text-primary">.</span></span>
                     </a>
                 </div>
                 <!-- Menu -->
-                <div class="hidden lg:flex space-x-16">
+                <div class="hidden xl:flex space-x-16">
                     <a href="#hero"
-                        class="text-base font-medium leading-6 text-white hover:text-whitegray focus:outline-none focus:text-whitegray transition duration-150 ease-in-out">
+                        class="text-base font-medium leading-6 text-dark hover:text-primary focus:outline-none focus:text-primary transition duration-150 ease-in-out">
                         Home
                     </a>
                     <a href="#call"
-                        class="text-base font-medium leading-6 text-white hover:text-whitegray focus:outline-none focus:text-whitegray transition duration-150 ease-in-out">
+                        class="text-base font-medium leading-6 text-dark hover:text-primary focus:outline-none focus:text-primary transition duration-150 ease-in-out">
                         Mentorship
                     </a>
                     <a href="#benefits"
-                        class="text-base font-medium leading-6 text-white hover:text-whitegray focus:outline-none focus:text-whitegray transition duration-150 ease-in-out">
+                        class="text-base font-medium leading-6 text-dark hover:text-primary focus:outline-none focus:text-primary transition duration-150 ease-in-out">
                         Features
                     </a>
                     <a href="#team"
-                        class="text-base font-medium leading-6 text-white hover:text-whitegray focus:outline-none focus:text-whitegray transition duration-150 ease-in-out">
+                        class="text-base font-medium leading-6 text-dark hover:text-primary focus:outline-none focus:text-primary transition duration-150 ease-in-out">
                         Mentors
                     </a>
                     <a href="#reviews"
-                        class="text-base font-medium leading-6 text-white hover:text-whitegray focus:outline-none focus:text-whitegray transition duration-150 ease-in-out">
+                        class="text-base font-medium leading-6 text-dark hover:text-primary focus:outline-none focus:text-primary transition duration-150 ease-in-out">
                         Reviews
                     </a>
                     <a href="#faqs"
-                        class="text-base font-medium leading-6 text-white hover:text-whitegray focus:outline-none focus:text-whitegray transition duration-150 ease-in-out">
+                        class="text-base font-medium leading-6 text-dark hover:text-primary focus:outline-none focus:text-primary transition duration-150 ease-in-out">
                         FAQs
                     </a>
                 </div>
                 <div class="hidden p-3 px-6 pt-2 md:block">
                     <a href="tel:+917999703319"
-                        class="text-base mx-3 font-medium leading-6 text-white focus:outline-none focus:text-primary transition duration-150 ease-in-out">
+                        class="text-base mx-3 font-medium leading-6 text-dark focus:outline-none hover:cursor-pointer transition duration-150 ease-in-out">
                         Contact Us
                     </a>
                     <a href="https://bit.ly/2MHjHgg"
-                        class="px-7 py-2 mx-3 font-medium text-black bg-white rounded-md hover:bg-whitegray transition duration-150 ease-in-out">Chat
+                        class="px-7 py-2 mx-3 font-medium text-white bg-primary rounded-2xl hover:bg-blue-700 transition duration-150 ease-in-out">Chat
                         Now</a>
                 </div>
 
                 <!-- Hamburger -->
-                <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+                <button id="menu-btn" class="block hamburger xl:hidden focus:outline-none">
                     <span class="hamburger-top"></span>
                     <span class="hamburger-middle"></span>
                     <span class="hamburger-bottom"></span>
@@ -72,7 +72,7 @@
 
             </div>
             <!-- Mobile Menu -->
-            <div class="lg:hidden">
+            <div class="xl:hidden">
                 <div id="menu"
                     class="absolute hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
                     <a href="#hero">Home</a>
@@ -93,9 +93,9 @@
     </section>
 
     <!-- Hero Section -->
-    <section class="bg-dark text-white py-3" id="hero">
+    <section class="bg-white text-dark py-3" id="hero">
         <div
-            class="home-content container flex flex-col justify-around p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
+            class="home-content container flex flex-col-reverse flex-wrap justify-around p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
             <!-- Left Section-->
             <div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                 <h1 class="text-3xl font-bold leading-none sm:text-4xl">Improve your performance with
@@ -115,7 +115,7 @@
                         your Session
                         Now</a>
                     <a href="tel:+917999703319"
-                        class="px-8 py-3 text-lg font-semibold border rounded-xl border-white">Learn More</a>
+                        class="px-8 py-3 text-lg font-semibold border rounded-xl border-dark">Learn More</a>
                 </div>
                 <!-- User profiles -->
                 <div
@@ -123,23 +123,23 @@
                     <div class="inline-flex justify-start mt-6 m-3">
                         <span class="relative overflow-hidden w-12 -ml-4">
                             <img src="assets/img/u-1.jpg" alt="Hero"
-                                class="w-full block rounded-full border-2 border-dark shadow-sm">
+                                class="w-full block rounded-full border-2 border-white shadow-sm">
                         </span>
                         <span class="relative overflow-hidden w-12 -ml-4">
                             <img src="assets/img/u-2.jpg" alt="Hero"
-                                class="w-full block rounded-full border-2 border-dark shadow-sm">
+                                class="w-full block rounded-full border-2 border-white shadow-sm">
                         </span>
                         <span class="relative overflow-hidden w-12 -ml-4">
                             <img src="assets/img/u-3.jpg" alt="Hero"
-                                class="w-full block rounded-full border-2 border-dark shadow-sm">
+                                class="w-full block rounded-full border-2 border-white shadow-sm">
                         </span>
                         <span class="relative overflow-hidden w-12 -ml-4">
                             <img src="assets/img/u-4.jpg" alt="Hero"
-                                class="w-full block rounded-full border-2 border-dark shadow-sm">
+                                class="w-full block rounded-full border-2 border-white shadow-sm">
                         </span>
                         <span class="relative overflow-hidden w-12 -ml-4">
                             <div
-                                class="bg-secondary text-md font-medium pl-1 py-2.5 text-black rounded-full border-2 border-dark shadow-sm">
+                                class="bg-secondary text-md font-medium pl-1 py-2.5 text-black rounded-full border-2 border-white shadow-sm">
                                 +10k
                             </div>
                         </span>
@@ -185,7 +185,7 @@
 
                         <!-- Ratings -->
                         <div class="flex flex-col justify-center space-x-3 items-center">
-                            <p class="ml-2 text-sm font-medium text-gray-900 dark:text-white">4.9 out of 5</p>
+                            <p class="ml-2 text-sm font-medium text-gray-900 dark:text-dark">4.9 out of 5</p>
                             <p class="text-sm font-medium text-gray-500 dark:text-gray-400">from 10,000+ users</p>
                         </div>
 
@@ -193,9 +193,11 @@
                 </div>
             </div>
             <!-- Right Image -->
-            <div
-                class="hero-img flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                <img src="assets/img/1.png" alt="Mentorship" class="object-contain sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+            <div class="hero-img flex items-center justify-center p-2 mt-8 lg:mt-0 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+
+                <iframe class="inset-0 aspect-video h-full w-full overflow-hidden rounded-md shadow-xl"
+                    src="https://www.youtube.com/embed/RZGWTBhMqxs" frameborder="0"></iframe>
+
             </div>
         </div>
     </section>
@@ -227,7 +229,7 @@
                         <span class="flex items-center border rounded-full w-24 pr-2 justify-center mx-auto mt-2 mb-12">
                             <div class="bg-green-400 rounded-full w-2.5 h-2.5 block mr-2"></div>Mentor
                         </span>
-                        <div class="card-2 flex rounded items-center justify-around w-full">
+                        <div class="flex rounded items-center justify-around w-full">
                             <button type="button" class="text-white px-3 py-1"><i
                                     class="fa-solid fa-phone"></i></button>
                             <button type="button" class="text-white px-3 py-1">
@@ -238,7 +240,7 @@
                         </div>
                     </div>
                     <div
-                        class="bg-white py-8 px-10 text-center rounded-lg shadow-lg lg:transform lg:-translate-x-8 sm:-translate-y-10 max-w-xs mx-auto">
+                        class="card-2 bg-white py-8 px-10 text-center rounded-lg shadow-lg lg:transform lg:-translate-x-8 sm:-translate-y-10 max-w-xs mx-auto">
                         <h2 class="font-semibold text-2xl mb-6">Mytutor247 Student</h2>
                         <img class="w-20 h-20 object-cover rounded-full mx-auto shadow-lg"
                             src="https://unsplash.com/photos/O9pmqUq1uOU/download?force=true&auto=format&fit=crop&w=1350&q=80"
@@ -264,18 +266,18 @@
 
     <section class="py-2 w-full" id="logos">
         <div class="relative flex items-center justify-center w-full dark:text-gray-50">
-            <button aria-label="Slide back" type="button" id="btn-prev"
+            <!-- <button aria-label="Slide back" type="button" id="btn-prev"
                 class="absolute text-gray-800 left-0 z-30 p-2 ml-10 focus:outline-none focus:dark:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400">
                 <svg width="8" height="14" fill="none" viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg"
                     class="w-4 h-4">
                     <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round"></path>
                 </svg>
-            </button>
+            </button> -->
             <div id="logo-display"
-                class="flex items-center justify-start w-full h-full gap-6 py-4 mx-auto overflow-auto scrollbar-hide lg:gap-8">
+                class="flex items-center justify-start gap-6 py-4 mx-auto overflow-auto scrollbar-hide lg:gap-8">
                 <div class="py-16 bg-white">
-                    <div class="container w-screen m-auto px-6 space-y-8 md:px-12 lg:px-56">
+                    <div class="container m-auto px-6 space-y-8 md:px-12 lg:px-56">
                         <div class="m-auto text-center lg:w-7/12">
                             <h2 data-aos="fade-up" data-aos-duration="1000"
                                 class="text-2xl text-black font-black md:text-5xl">Better <span
@@ -289,7 +291,7 @@
                             </p>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="1000"
-                            class="grid mt-2 w-full justify-items-center items-center grid-rows-2 grid-flow-col">
+                            class="grid mt-2 justify-items-center items-center grid-rows-2 grid-flow-col">
                             <div class="p-4">
                                 <img src="./assets/img/clg/aiims.svg" class="w-32" alt="">
                             </div>
@@ -311,7 +313,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="py-16 bg-white">
+                <!-- <div class="py-16 bg-white">
                     <div class="container w-screen m-auto px-6 space-y-8 md:px-12 lg:px-56">
                         <div class="m-auto text-center lg:w-7/12">
                             <h2 class="text-2xl text-black font-black md:text-5xl">Better <span
@@ -389,75 +391,74 @@
                         <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round"></path>
                     </svg>
-                </button>
+                </button> -->
             </div>
     </section>
 
-    <section class="bg-dark" id="benefits">
+    <section class="bg-white" id="benefits">
         <div class="container max-w-xl p-6 py-20 mx-auto space-y-12 lg:px-8 lg:max-w-4xl">
             <div>
                 <h2 data-aos="fade-up" data-aos-duration="1000"
-                    class="text-3xl font-black tracking-tight text-center sm:text-5xl text-white">Unlock Your
+                    class="text-3xl font-black tracking-tight text-center sm:text-5xl text-dark">Unlock Your
                     <span class="text-primary">Potential</span>
                 </h2>
                 <p data-aos="fade-up" data-aos-duration="1000"
-                    class="max-w-3xl mx-auto mt-4 text-xl font-medium text-center dark:text-white">Discover the Secrets
+                    class="max-w-3xl mx-auto mt-4 text-xl font-medium text-center dark:text-dark">Discover the Secrets
                     of Success
                     Inside Our Mentorship</p>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000"
                 class="container flex flex-col-reverse mx-auto lg:flex-row justify-between">
                 <div
-                    class="flex flex-col px-6 py-8 space-y-6 sm:p-8 lg:p-12 lg:w-1/2 xl:w-1/2 bg-white lg:rounded-l-md">
+                    class="flex flex-col px-6 py-8 space-y-6 sm:p-8 lg:p-12 lg:w-1/2 xl:w-1/2 bg-secondary lg:rounded-l-md">
                     <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
-                        <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                        <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                             <span
-                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span
+                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-400 rounded-full"><span
                                     class="text-sm font-bold">✓</span></span>
                             Personal Mentorship By Top Experts
                         </li>
-                        <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                        <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                             <span
-                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span
+                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-400 rounded-full"><span
                                     class="text-sm font-bold">✓</span></span>
                             Weekly Performance Sessions
                         </li>
-                        <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                        <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                             <span
-                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span
+                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-400 rounded-full"><span
                                     class="text-sm font-bold">✓</span></span>
                             Paper attempting techniques
                         </li>
-                        <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                        <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                             <span
-                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span
+                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-400 rounded-full"><span
                                     class="text-sm font-bold">✓</span></span>
                             Rank Booster Sessions
                         </li>
-                        <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                        <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                             <span
-                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span
+                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-400 rounded-full"><span
                                     class="text-sm font-bold">✓</span></span>
                             Multiple Practice Tests &amp; Exams
                         </li>
-                        <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                        <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                             <span
-                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span
+                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-400 rounded-full"><span
                                     class="text-sm font-bold">✓</span></span>
                             Short Notes By Mentors
                         </li>
-                        <li class="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
+                        <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                             <span
-                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full"><span
+                                class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-400 rounded-full"><span
                                     class="text-sm font-bold">✓</span></span>
                             All Unlimited Services
                         </li>
                     </ul>
                 </div>
-                <div class="lg:w-1/2 xl:w-1/2 lg:bg-white lg:rounded-r-md">
+                <div class="lg:w-1/2 xl:w-1/2 lg:bg-secondary lg:rounded-r-md">
                     <div class="flex items-center justify-center p-4 md:p-8 lg:py-16 px-8 h-full w-full">
-                        <iframe class="inset-0 aspect-video h-full w-full overflow-hidden rounded-md shadow-xl"
-                            src="https://www.youtube.com/embed/RZGWTBhMqxs" frameborder="0"></iframe>
+                        <img src="assets/img/3.png" alt="Mentorship" class="object-contain">
                     </div>
                 </div>
             </div>
@@ -982,7 +983,7 @@
 
 
 
-    <footer class="py-6 bg-dark text-white" id="footer">
+    <footer class="py-6 border-t-2 border-gray-100 bg-white text-dark" id="footer">
 
         <div class="container p-8 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50">
             <div class="grid grid-cols-12 gap-6">
@@ -1003,7 +1004,8 @@
                         from India's Best IITians, NITians, and Top Medicos and can learn the art of getting the
                         best out of your self-studies to crack these toughest examinations of India.</p>
                 </div>
-                <div class="footer-links text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
+                <div data-aos="fade-up" data-aos-duration="1000"
+                    class="footer-links text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
                     <ul>
                         <li>
                             <a rel="noopener noreferrer" href="#hero" class="hover:dark:text-accent">Home</a>
@@ -1016,7 +1018,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-links text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
+                <div data-aos="fade-up" data-aos-duration="1000"
+                    class="footer-links text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
                     <p class="pb-1 text-lg font-medium"></p>
                     <ul>
                         <li>
@@ -1027,7 +1030,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-links text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
+                <div data-aos="fade-up" data-aos-duration="1000"
+                    class="footer-links text-center col-span-full sm:col-span-6 md:text-left md:col-span-2">
                     <ul>
                         <li>
                             <a rel="noopener noreferrer" href="#faqs" class="hover:dark:text-accent">FAQs</a>
@@ -1039,7 +1043,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="grid justify-center pt-6 lg:justify-between">
+            <div data-aos="fade-up" data-aos-duration="1000" class="grid justify-center pt-6 lg:justify-between">
                 <div
                     class="footer-c flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6">
                     <span>©2023 All rights reserved</span>
