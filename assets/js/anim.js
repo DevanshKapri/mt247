@@ -36,14 +36,14 @@ function callAnimation() {
   );
   tl.fromTo(
     ".card-1",
-    { translateY: -100, opacity: 0 },
-    { translateY: 0, opacity: 1, duration: 1 },
+    { translateY: -50, opacity: 0 },
+    { translateY: 50, opacity: 1, duration: 1 },
     "-=0.5"
   );
   tl.fromTo(
     ".card-2",
-    { translateY: 100, opacity: 0 },
-    { translateY: 0, opacity: 1, duration: 1 },
+    { translateY: -30, opacity: 0 },
+    { translateY: -60, opacity: 1, duration: 1 },
     "-=0.5"
   );
 }
