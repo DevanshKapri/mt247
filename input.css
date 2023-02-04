@@ -87,6 +87,22 @@ html {
   background-size: cover;
 } */
 
+/* #hero {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../img/bg6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+#hero {
+  background-image: url("../img/bg7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*==== PRE LOADER ===*/
 
 .pre-loading {
@@ -128,19 +144,19 @@ html {
 .H-left-stroke {
   stroke-dasharray: 124px;
   stroke-dashoffset: 124px;
-  animation: H-left-move 20s ease forwards;
+  animation: H-left-move 10s ease forwards;
 }
 
 .H-mid-stroke {
   stroke-dasharray: 37px;
   stroke-dashoffset: 37px;
-  animation: H-mid-move 9s ease forwards;
+  animation: H-mid-move 4s ease forwards;
 }
 
 .H-right-stroke {
   stroke-dasharray: 124px;
   stroke-dashoffset: 124px;
-  animation: H-right-move 13s ease forwards;
+  animation: H-right-move 9s ease forwards;
 }
 
 @keyframes H-left-move {
@@ -190,25 +206,25 @@ html {
 .E-left-stroke {
   stroke-dasharray: 124px;
   stroke-dashoffset: 124px;
-  animation: E-left-move 20s ease forwards;
+  animation: E-left-move 10s ease forwards;
 }
 
 .E-top-stroke {
   stroke-dasharray: 47px;
   stroke-dashoffset: 47px;
-  animation: E-top-move 10s ease forwards;
+  animation: E-top-move 4s ease forwards;
 }
 
 .E-mid-stroke {
   stroke-dasharray: 42px;
   stroke-dashoffset: 42px;
-  animation: E-mid-move 10s ease forwards;
+  animation: E-mid-move 4s ease forwards;
 }
 
 .E-bottom-stroke {
   stroke-dasharray: 47px;
   stroke-dashoffset: 47px;
-  animation: E-bottom-move 10s ease forwards;
+  animation: E-bottom-move 4s ease forwards;
 }
 
 @keyframes E-left-move {
@@ -276,13 +292,13 @@ html {
 .L-one-long-stroke {
   stroke-dasharray: 124px;
   stroke-dashoffset: 124px;
-  animation: L-one-long-move 20s ease forwards;
+  animation: L-one-long-move 10s ease forwards;
 }
 
 .L-one-short-stroke {
   stroke-dasharray: 44px;
   stroke-dashoffset: 44px;
-  animation: L-one-short-move 10s ease forwards;
+  animation: L-one-short-move 4s ease forwards;
 }
 
 @keyframes L-one-long-move {
@@ -320,13 +336,13 @@ html {
 .L-two-long-stroke {
   stroke-dasharray: 124px;
   stroke-dashoffset: 124px;
-  animation: L-two-long-move 20s ease forwards;
+  animation: L-two-long-move 10s ease forwards;
 }
 
 .L-two-short-stroke {
   stroke-dasharray: 44px;
   stroke-dashoffset: 44px;
-  animation: L-two-short-move 10s ease forwards;
+  animation: L-two-short-move 4s ease forwards;
 }
 
 @keyframes L-two-long-move {
@@ -364,7 +380,7 @@ html {
 .O-stroke {
   stroke-dasharray: 302px;
   stroke-dashoffset: 302px;
-  animation: O-move 20s ease forwards;
+  animation: O-move 10s ease forwards;
 }
 
 @keyframes O-move {
@@ -387,7 +403,7 @@ html {
 .red-dot {
   stroke-width: 44px;
   stroke-linecap: round;
-  animation: red-dot-grow 8s ease-out forwards;
+  animation: red-dot-grow 4s ease-out forwards;
 }
 
 @keyframes red-dot-grow {

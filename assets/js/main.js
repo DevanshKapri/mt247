@@ -31,7 +31,7 @@
 $(window).on("load", function () {
   setTimeout(function () {
     hidePreloader();
-  }, 4000);
+  }, 1000);
 });
 
 function hidePreloader() {
@@ -40,11 +40,11 @@ function hidePreloader() {
 
   setTimeout(function () {
     showPreloader();
-  }, 3000);
+  }, 1500);
 }
 
 function showPreloader() {
-  $(".spinner-wrapper").fadeOut(2000);
+  $(".spinner-wrapper").fadeOut(1000);
   $("body").removeClass("pre-loading"); // Remove scroll bar until the loader finish. Add "pre-loading" class to your body tag
 }
 
