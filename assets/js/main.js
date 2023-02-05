@@ -27,28 +27,11 @@
 //   }, 100);
 // };
 
-// == PRELOADER ==
-$(window).on("load", function () {
-  setTimeout(function () {
-    hidePreloader();
-  }, 1000);
-});
-
-function hidePreloader() {
-  $(".spinner").fadeOut("slow");
-  $(".spinner-2").fadeIn("slow");
-
-  setTimeout(function () {
-    showPreloader();
-  }, 1500);
+function handlePreloader() {
+  if ($(".preloader").length) {
+    $(".preloader").delay(200).fadeOut(500);
+  }
 }
-
-function showPreloader() {
-  $(".spinner-wrapper").fadeOut(1000);
-  $("body").removeClass("pre-loading"); // Remove scroll bar until the loader finish. Add "pre-loading" class to your body tag
-}
-
-// == END PRELOADER ==
 
 const chartOptions = {
   maintainAspectRatio: false,
@@ -149,3 +132,8 @@ btn.addEventListener("click", () => {
   nav.classList.toggle("flex");
   nav.classList.toggle("hidden");
 });
+
+window.onload = function () {
+  //hide the preloader
+  handlePreloader();
+};
